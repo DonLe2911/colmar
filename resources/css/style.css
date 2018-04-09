@@ -137,7 +137,6 @@ margin: 32px 24px 32px 24px;
 .right {
 display: flex;
 flex-direction: column;
-border-left: 1px solid #c0c0c0;
 padding-bottom: 32px;
 width: 40%;
 }
@@ -150,7 +149,6 @@ width: 40%;
   display: inline-flex;
   align-items: center;
   width: 100%;
-  border-bottom: 1px solid #c0c0c0;
 }
 
 .content-box:last-child {
@@ -237,4 +235,40 @@ width: 30%;
 .grid-text p {
   font-size: 20px;
   line-height: 1.2;
+}
+
+
+/* Main Content 3 */
+
+.content3 {
+  width: 100%;
+  display: block;
+}
+
+.content3 .right {
+  border: none;
+  margin-top: 32px;
+}
+
+.content3 .left h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.content3 .content-box:last-child {
+  background-color: white;
+}
+
+.content3 .content-box:first-child {
+  background-color: #c0c0c0;
+}
+
+.content3-section {
+  display: flex;
+}
+
+.left video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 32px;
 }
