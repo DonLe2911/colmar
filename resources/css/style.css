@@ -184,3 +184,57 @@ width: 40%;
 .box-text a:hover {
   color: cornflowerblue;
 }
+
+/* Main Content 2 */
+
+.content2 {
+  background-color: silver;
+}
+
+.section-head {
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  padding: 32px 0 16px 0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 56px 32px 56px;
+}
+
+.grid-box {
+margin: 16px;
+width: 30%;
+}
+
+.grid-box img {
+  height: auto;
+  width: 100%;
+}
+
+.grid-text {
+  padding: 16px 16px 24px 16px;
+  background-color: white;
+  height: 140px;
+}
+
+.grid-text h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.grid-text h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.grid-text p {
+  font-size: 20px;
+  line-height: 1.2;
+}
