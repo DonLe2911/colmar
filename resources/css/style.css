@@ -80,7 +80,7 @@ div .title{
   background-color: #c0c0c0;
 }
 
-.banner img {
+.banner-image {
   display: flex;
   margin: 32px 24px;
   width: 60%
@@ -116,7 +116,38 @@ font-size: 24px;
   margin-bottom: 30px;
 }
 
+/* Main Banner mobile */
 
+@media only screen and (max-width: 768px) {
+
+  .banner {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+
+    .banner-image {
+      height: 510px;
+      width: 100%;
+      background-image: url("../media/images/banner.jpg");
+      margin: 0;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size:cover;
+    }
+
+    .banner-image img {
+      display: none;
+    }
+
+
+    .banner .box {
+      margin: 32px 16px 32px 16px;
+      text-align: left;
+      width: 100%;
+    }
+
+}
 
 /* Main Content 1 */
 
