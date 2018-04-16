@@ -395,9 +395,20 @@ width: 30%;
   margin-top: 32px;
 }
 
+.content3 .video {
+  padding: 24px;
+}
+
 .content3 .video h1 {
   font-size: 28px;
   font-weight: 600;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.content3 .video h2 {
+  padding-bottom: 32px;
+  line-height: 1.2;
 }
 
 .content3 .content-box:last-child {
