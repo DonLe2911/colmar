@@ -429,6 +429,10 @@ width: 30%;
     display: none;
   }
 
+  .content3-section .video video {
+    padding-bottom: 24px;
+  }
+
   .content3-section .info {
     display: none;
   }
@@ -461,4 +465,21 @@ footer span {
 
 footer nav {
   display: inline-flex;
+}
+
+/*Footer Mobile*/
+@media only screen and (max-width: 600px) {
+
+footer nav span {
+  display: none;
+}
+
+footer span {
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+footer {
+  border-top: none;
+}
 }
