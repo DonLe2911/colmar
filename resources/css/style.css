@@ -277,6 +277,12 @@ width: 40%;
     padding: 16px 16px 16px 32px;
   }
 
+  .right-mobile .box-text h3,
+  h2,
+  a {
+    margin-left: 32px;
+  }
+
   .content-box:last-child {
     background-color: white;
   }
@@ -334,6 +340,48 @@ width: 30%;
 .grid-text p {
   font-size: 20px;
   line-height: 1.2;
+}
+
+.grid-mobile {
+  display: none;
+}
+
+/* Main Content 2 mobile */
+
+@media only screen and (max-width: 600px) {
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%
+  }
+
+  .grid {
+    display: none;
+  }
+
+  .grid-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .grid-mobile li {
+    font-weight: bold;
+    background-color: silver;
+    padding: 16px 0px 24px 16px;
+    margin-bottom: 8px;
+    text-align: left;
+
+  }
+
+  .section-head h1 {
+    width: 90%;
+  }
 }
 
 
